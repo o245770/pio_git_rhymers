@@ -8,7 +8,7 @@ public class defaultCountingOutRhymer {
 
 	private static final int DEFAULT_RETURN = -1;
 
-	private int[] NUMBERS = new int[TAB_INT];
+	private final int[] NUMBERS = new int[TAB_INT];
 
     public int total = DEFAULT_RETURN;
 
