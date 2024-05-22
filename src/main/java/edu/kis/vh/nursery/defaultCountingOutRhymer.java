@@ -5,6 +5,10 @@ public class defaultCountingOutRhymer {
     private static final int constVariable = 12;
     private int[] NUMBERS = new int[constVariable];
 
+    public int getTotal() {
+        return total;
+    }
+
     public int total = -1;
 
     public void countIn(int in) {
